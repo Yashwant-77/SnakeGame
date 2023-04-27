@@ -6,7 +6,7 @@ const moveSound = new Audio('music/move.mp3');
 const musicSound = new Audio('music/music.mp3');
 
 let score = 0;
-let speed = 5;
+let speed = 1;
 let lastPainterTime = 0;
 let snakeArr = [
     {x : 13 , y : 15}
@@ -57,7 +57,7 @@ function gameEngine(){
         // musicSound.play();
         // stateOfMusic = true;
         score = 0;
-        speed = 5;
+        speed = 1;
         scoreBox.innerHTML = "Score :" + score;
     }
 
